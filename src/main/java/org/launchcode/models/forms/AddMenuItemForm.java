@@ -17,6 +17,8 @@ public class AddMenuItemForm {
     @NotNull
     private int cheeseId;
 
+    public AddMenuItemForm(){}
+
     public AddMenuItemForm(Menu menu, Iterable<Cheese> cheeses) {
         this.menu = menu;
         this.cheeses = cheeses;
